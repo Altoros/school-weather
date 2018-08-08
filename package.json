@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "testrpc": "./testrpc",
-    "bridge": "cd external/ethereum-bridge && npm i && node bridge -H localhost:8545 -a 1 --dev"
+    "bridge": "cd ethereum-bridge && npm i && node bridge -H localhost:8545 -a 1 --dev"
   },
   "dependencies": {
     "ethereumjs-testrpc": "^6.0.3",

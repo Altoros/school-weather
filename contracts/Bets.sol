@@ -1,7 +1,7 @@
-pragma solidity 0.4.19;
+pragma solidity ^0.4.19;
 
-import "../external/oraclize/oraclizeAPI_0.5.sol";
-import "../external/stringutils/strings.sol";
+import "../oraclize/oraclizeAPI_0.5.sol";
+import "../stringutils/strings.sol";
 import 'zeppelin-solidity/contracts/lifecycle/Destructible.sol';
 
 
